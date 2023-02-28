@@ -40693,8 +40693,27 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
+  .u-footer .u-image-1 {
+    width: 96px;
+    height: 96px;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 180deg;
+    --animation-custom_in-scale: 1;
+    margin-top: 54px;
+  }
+
+  .u-footer .u-line-1 {
+    margin-top: 68px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
   .u-footer .u-text-1 {
     width: 314px;
+    font-size: 0.625rem;
   }
 }
 @media (max-width: 575px) {
